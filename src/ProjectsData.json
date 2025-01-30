@@ -58,7 +58,7 @@
     {
         "title": "Data Entry Form",
         "description": "This project provides a streamlined data entry form application. It includes form design, validation, and backend processing to ensure efficient data collection and management.",
-        "imageSrc": "",
+        "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrvyLx09QmqRghGjqpEBT_A-mB44iZyeDTdQ&s",
         "strLink": "https://data-entry-form.streamlit.app/",
         "ghLink": "https://github.com/youssefa7med/Data_Entry_Form"
     },
@@ -72,14 +72,14 @@
     {
         "title": "Web Scraping",
         "description": "This project involves web scraping techniques to collect data from various online sources. It includes script development, data extraction, cleaning, and storage for further analysis and use.",
-        "imageSrc": "",
+        "imageSrc": "https://d1pnnwteuly8z3.cloudfront.net/images/4d5bf260-c3d0-4f21-b718-8ede8d4ca716/febf9de6-8a5a-4055-b274-e685485496f5.jpeg",
         "strLink": "",
         "ghLink": "https://github.com/youssefa7med/Web_Scrapping"
     },
     {
         "title": "Chat Bot",
         "description": "This project develops an AI chatbot capable of interacting with users through natural language processing (NLP). It includes designing conversational flows, training the model, and deploying the chatbot for user interaction.",
-        "imageSrc": "",
+        "imageSrc": "https://d2vrvpw63099lz.cloudfront.net/whatsapp-bots/whatsapp-bots.png",
         "strLink": "https://chat-bot-ai.streamlit.app/",
         "ghLink": "https://github.com/youssefa7med/Chat-Bot"
     },
@@ -100,7 +100,7 @@
     {
         "title": "Video Games",
         "description": "This project analyzes video game data to derive insights into player behavior, game popularity, and sales trends. It includes data preprocessing, EDA, visualization, and potentially predictive modeling.",
-        "imageSrc": "",
+        "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Uk_5jeNuZqmqPMnMWLRqq4lKf4oiPS8bmg&s",
         "strLink": "",
         "ghLink": "https://github.com/youssefa7med/Video_Games"
     }

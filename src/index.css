@@ -26,7 +26,7 @@
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: url(./graph-pattern.gif), #202422;
+    background: url(./graph-pattern.gif), #1a1e1c;
     background-blend-mode: multiply, normal;
     min-height: 100vh;
     min-width: 100%;
