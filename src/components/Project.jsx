@@ -17,11 +17,11 @@ export default function Project({
           <div className="transition-opacity group-hover:absolute group-hover:opacity-0 w-full h-full">
             <LazyLoadImage
               alt={title}
-              effect="blur" // You can choose different effects like 'blur', 'opacity', etc.
+              effect="blur"
               src={imageSrc}
               width="100%"
               height="100%"
-              className="object-cover"
+              className="h-full w-full object-cover"
             />
           </div>
 
