@@ -74,7 +74,7 @@ export function TextScramble({
     if (!trigger) return;
 
     scramble();
-  }, [trigger]);
+  }, [trigger]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <MotionComponent className={className} {...props}>
