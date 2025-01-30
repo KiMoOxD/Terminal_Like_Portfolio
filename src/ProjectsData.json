@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Airline Passenger Satisfaction",
+        "description": "This project analyzes airline passenger satisfaction using machine learning. It includes data preprocessing, exploratory data analysis (EDA), feature engineering, and model building to predict satisfaction levels.",
+        "imageSrc": "https://camo.githubusercontent.com/6869e80f5bee72257f633c96aea4b381f9b7ed11a3a506b01625edba0fa1ef14/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313038313538362f73637265656e73686f74732f333332313334362f666c696768745f6c6f6164696e675f76696b61732d73696e67682e676966",
+        "strLink": "",
+        "ghLink": "https://github.com/youssefa7med/Airline-Passenger-Satisfaction"
+    },
+    {
+        "title": "Text E-commerce Classification",
+        "description": "This project focuses on classifying e-commerce product reviews using natural language processing (NLP) techniques. It includes data preprocessing, feature extraction, model training, and evaluation to categorize product reviews into different classes.",
+        "imageSrc": "https://camo.githubusercontent.com/7bc7d55a3194416e5134d3db7cd3d24d28354340b9c7dbbd4bee9a5b6372c0e8/68747470733a2f2f74682e62696e672e636f6d2f74682f69642f522e32326139353231343562383733313862666533663135316335663861636236663f72696b3d6f61593664705a51726b77315167267069643d496d6752617726723d30",
+        "strLink": "https://text-ecommerce-classification.streamlit.app/",
+        "ghLink": "https://github.com/youssefa7med/Text-Ecommerce-Classification"
+    },
+    {
+        "title": "Fifa23",
+        "description": "This project involves analyzing data related to the FIFA 23 video game. It includes data exploration, visualization, and possibly predictive modeling to gain insights into player statistics, team performance, or other game-related metrics.",
+        "imageSrc": "https://github.com/youssefa7med/Fifa23/blob/main/arena.jpeg?raw=true",
+        "strLink": "https://fifa23-analysis.streamlit.app/",
+        "ghLink": "https://github.com/youssefa7med/Fifa23"
+    },
+    {
+        "title": "Walmart",
+        "description": "This project focuses on analyzing Walmart sales data to derive actionable insights. It includes data preprocessing, exploratory data analysis (EDA), visualization, and potentially predictive modeling to understand sales trends and patterns.",
+        "imageSrc": "https://www.walmartcanada.ca/content/dam/walmart-canada/images/newsroom/2023/11/29/WalmartCanada-Storefront.jpg",
+        "strLink": "https://walmart-predection.streamlit.app/",
+        "ghLink": "https://github.com/youssefa7med/Walmart"
+    },
+    {
+        "title": "Ecommerce",
+        "description": "This project involves analyzing e-commerce data to gain insights into customer behavior and sales trends. It includes data preprocessing, exploratory data analysis (EDA), visualization, and potentially predictive modeling to enhance business understanding and decision-making.",
+        "imageSrc": "https://github.com/youssefa7med/Ecommerce/blob/main/E_commerce_sales.jpg?raw=true",
+        "strLink": "https://ecommerce-home.streamlit.app/",
+        "ghLink": "https://github.com/youssefa7med/Ecommerce"
+    },
+    {
+        "title": "Taxi",
+        "description": "This project focuses on analyzing taxi trip data to derive insights into travel patterns, demand forecasting, and operational efficiency. It includes data preprocessing, exploratory data analysis (EDA), visualization, and potentially predictive modeling.",
+        "imageSrc": "https://camo.githubusercontent.com/17c292d9c41d2842fa74f083278920ae7d3f284e1568b57eb43875987322849f/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f534c723871616f524836486d772f3230302e676966",
+        "strLink": "https://nyc-taxi.streamlit.app/",
+        "ghLink": "https://github.com/youssefa7med/Taxi"
+    },
+    {
+        "title": "Water-Quality",
+        "description": "This project analyzes water quality data to understand various parameters and their impact on water safety and usability. It includes data preprocessing, exploratory data analysis (EDA), visualization, and potentially predictive modeling.",
+        "imageSrc": "https://camo.githubusercontent.com/f20602458a3bc426b45cb4440850939cbb98c975e2a7e92a97bc4f8c2324d425/68747470733a2f2f7777772e62696e672e636f6d2f74682f69642f4f47432e64613139363235656465376332336436396461653736396138363737376538633f7069643d312e37267275726c3d6874747073253361253266253266692e70696e696d672e636f6d2532666f726967696e616c7325326663342532663166253266383625326663343166383631633538346464656537373833303261616438306161623631632e6769662665686b3d51416d394549686432724c776e5956717144416730793642613545763767657830782532624e52346471393467253364",
+        "strLink": "",
+        "ghLink": "https://github.com/youssefa7med/Water-Quality"
+    },
+    {
+        "title": "Jobs in Data",
+        "description": "This project focuses on analyzing job market data within the data science field. It includes data collection, preprocessing, EDA, and visualization to provide insights into trends, skills demand, and career opportunities.",
+        "imageSrc": "https://github.com/youssefa7med/jobs_in_data/blob/main/data-analyst-job-scaled.jpeg?raw=true",
+        "strLink": "https://jobindata.streamlit.app/",
+        "ghLink": "https://github.com/youssefa7med/jobs_in_data"
+    },
+    {
+        "title": "Data Entry Form",
+        "description": "This project provides a streamlined data entry form application. It includes form design, validation, and backend processing to ensure efficient data collection and management.",
+        "imageSrc": "",
+        "strLink": "https://data-entry-form.streamlit.app/",
+        "ghLink": "https://github.com/youssefa7med/Data_Entry_Form"
+    },
+    {
+        "title": "Amazon Sales",
+        "description": "This project analyzes Amazon sales data to derive insights into sales performance and trends. It includes data preprocessing, EDA, visualization, and potentially predictive modeling to enhance business understanding and decision-making.",
+        "imageSrc": "https://github.com/youssefa7med/Amazon-Sales/blob/main/amazon_photo.png?raw=true",
+        "strLink": "https://sales-amazon.streamlit.app/",
+        "ghLink": "https://github.com/youssefa7med/Amazon-Sales"
+    },
+    {
+        "title": "Web Scraping",
+        "description": "This project involves web scraping techniques to collect data from various online sources. It includes script development, data extraction, cleaning, and storage for further analysis and use.",
+        "imageSrc": "",
+        "strLink": "",
+        "ghLink": "https://github.com/youssefa7med/Web_Scrapping"
+    },
+    {
+        "title": "Chat Bot",
+        "description": "This project develops an AI chatbot capable of interacting with users through natural language processing (NLP). It includes designing conversational flows, training the model, and deploying the chatbot for user interaction.",
+        "imageSrc": "",
+        "strLink": "https://chat-bot-ai.streamlit.app/",
+        "ghLink": "https://github.com/youssefa7med/Chat-Bot"
+    },
+    {
+        "title": "Bikes Sharing",
+        "description": "This project analyzes bike-sharing data to understand usage patterns, demand forecasting, and operational efficiency. It includes data preprocessing, EDA, visualization, and potentially predictive modeling.",
+        "imageSrc": "https://camo.githubusercontent.com/cb8f5d31112b10eeb9f43da3d3882422a2649c410ef2f7bb06b393c2c6cb69f3/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3231333332322f73637265656e73686f74732f313337353433312f62696b655f616e696d617465642e676966",
+        "strLink": "",
+        "ghLink": "https://github.com/youssefa7med/Bikes-Sharing"
+    },
+    {
+        "title": "Titanic Survived Prediction",
+        "description": "This project predicts survival outcomes for passengers aboard the Titanic using machine learning techniques. It includes data preprocessing, feature engineering, model training, and evaluation to predict survival probabilities.",
+        "imageSrc": "https://github.com/youssefa7med/Titanic-survived-prediction/blob/main/Titanic_dataset-cover.jpg?raw=true",
+        "strLink": "",
+        "ghLink": "https://github.com/youssefa7med/Titanic-survived-prediction"
+    },
+    {
+        "title": "Video Games",
+        "description": "This project analyzes video game data to derive insights into player behavior, game popularity, and sales trends. It includes data preprocessing, EDA, visualization, and potentially predictive modeling.",
+        "imageSrc": "",
+        "strLink": "",
+        "ghLink": "https://github.com/youssefa7med/Video_Games"
+    }
+]
