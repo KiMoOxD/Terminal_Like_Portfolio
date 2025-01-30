@@ -1,6 +1,6 @@
 import { TextEffect } from "../coreElements/textEffect.tsx";
 import { TextScramble } from "../coreElements/textScramble.tsx";
-import youssef from "../youssef.png";
+import youssef from "../Main_Logo1.png";
 
 export default function HeroSection() {
   return (
@@ -36,11 +36,10 @@ export default function HeroSection() {
           <a href="https://api.whatsapp.com/send?phone=201000139417" target="_blank" rel="noreferrer" className="text-sm lg:text-base relative inline-flex items-center gap-1 font-mono text-white bg-green-600 px-3 py-1 transition hover:shadow-lg hover:shadow-green-500/80 outline outline-1 outline-[#fff2f21f]">
             Contact Me
           </a>
-          <a href="#skills" className="text-sm lg:text-base relative inline-flex items-center gap-1 font-mono text-green bg-stone-600 px-3 py-1 outline outline-1 outline-[#fff2f21f] ms-2">
+          <a href="https://github.com/youssefa7med/About/blob/main/Youssef_Ahmed_CV.pdf" className="text-sm lg:text-base relative inline-flex items-center gap-1 font-mono text-green bg-stone-600 px-3 py-1 outline outline-1 outline-[#fff2f21f] ms-2">
             Download CV
           </a>
         </div>
-        {/* <a href='/' className='font-mono text-white bg-green-600 px-3 py-1 w-fit '>Contact me</a> */}
       </div>
       <div className="relative justify-center items-center">
         <img src={youssef} alt="Yossef" className="size-[290px] lg:size-[450px] z-20"></img>

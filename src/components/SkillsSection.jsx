@@ -16,10 +16,10 @@ export default function SkillsSection() {
           </TextShimmer>
         </div>
         <div className="lg:basis-2/3 lg:px-20 *:my-2">
-          <SkillBar skill={"Python"} percentage={50} />
-          <SkillBar skill={"Machine Learning"} percentage={70} />
-          <SkillBar skill={"Data Analysis"} percentage={80} />
-          <SkillBar skill={"EDA"} percentage={40} />
+          <SkillBar skill={"Python"} percentage={95} />
+          <SkillBar skill={"Machine Learning"} percentage={95} />
+          <SkillBar skill={"Data Analysis"} percentage={85} />
+          <SkillBar skill={"EDA"} percentage={90} />
         </div>
       </div>
     </div>

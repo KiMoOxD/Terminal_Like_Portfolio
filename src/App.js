@@ -73,6 +73,7 @@ function App() {
                 ghLink={project.ghLink}
                 title={project.title}
                 description={project.description}
+                webLink={project.webLink ? project.webLink : ""}
               />
             ))}
           </div>

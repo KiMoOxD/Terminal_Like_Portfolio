@@ -5,6 +5,7 @@ export default function Project({
   imageSrc,
   strLink,
   ghLink,
+  webLink,
   title,
   description,
 }) {
@@ -41,6 +42,11 @@ export default function Project({
               {strLink && (
                 <a href={strLink} className="underline">
                   Streamlit
+                </a>
+              )}
+              {webLink && (
+                <a href={webLink} className="underline">
+                  Wep App
                 </a>
               )}
             </div>
