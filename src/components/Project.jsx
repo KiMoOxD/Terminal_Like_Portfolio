@@ -41,7 +41,7 @@ export default function Project({
               </a>
               {strLink && (
                 <a href={strLink} className="underline">
-                  Streamlit
+                  Try it
                 </a>
               )}
               {webLink && (

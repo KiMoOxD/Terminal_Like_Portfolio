@@ -4,7 +4,7 @@ import youssef from "../Main_Logo1.png";
 
 export default function HeroSection() {
   return (
-    <div className="min-h-[80vh] my-8 lg:my-0 flex flex-col-reverse justify-center items-center lg:flex-row lg:justify-evenly *:flex gap-5">
+    <div id="hero" className="min-h-[80vh] my-8 lg:my-0 flex flex-col-reverse justify-center items-center lg:flex-row lg:justify-evenly *:flex gap-5">
       <div className="w-[85%] mt-3 lg:mt-0 lg:w-1/2 flex-col justify-center items-center text-center lg:items-start lg:text-start">
         <p className="bg-green-600 text-white font-mono px-2 py-1 w-fit">
           Hi, I'm
@@ -36,7 +36,7 @@ export default function HeroSection() {
           <a href="https://api.whatsapp.com/send?phone=201000139417" target="_blank" rel="noreferrer" className="text-sm lg:text-base relative inline-flex items-center gap-1 font-mono text-white bg-green-600 px-3 py-1 transition hover:shadow-lg hover:shadow-green-500/80 outline outline-1 outline-[#fff2f21f]">
             Contact Me
           </a>
-          <a href="https://github.com/youssefa7med/About/blob/main/Youssef_Ahmed_CV.pdf" className="text-sm lg:text-base relative inline-flex items-center gap-1 font-mono text-green bg-stone-600 px-3 py-1 outline outline-1 outline-[#fff2f21f] ms-2">
+          <a href={'/Youssef_Ahmed_CV.pdf'} download className="text-sm lg:text-base relative inline-flex items-center gap-1 font-mono text-green bg-stone-600 px-3 py-1 outline outline-1 outline-[#fff2f21f] ms-2">
             Download CV
           </a>
         </div>
