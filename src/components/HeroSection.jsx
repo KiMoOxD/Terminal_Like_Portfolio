@@ -22,7 +22,7 @@ export default function HeroSection() {
           speedSegment={0.3}
           className="text-2xl mb-3 smooch-sans-normal"
         >
-          Data Scientest & ML Engineer.
+          Data Scientist & ML Engineer.
         </TextEffect>
         <TextScramble
           className="leading-5 text-green-400 mb-6"

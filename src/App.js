@@ -7,6 +7,7 @@ import SocialMediaSection from "./components/SocialMediaSection.jsx";
 import HeroSection from "./components/HeroSection.jsx";
 import { TextShimmer } from "./coreElements/textShimmer.tsx";
 import { Spotlight } from "./coreElements/spotLight.tsx";
+import { useState } from "react";
 
 const data = [
   {
@@ -34,6 +35,15 @@ const data = [
 ];
 
 function App() {
+  let [showMoreFlag, setShowMoreFlag] = useState(0)
+  let projects = [];
+
+  if (!showMoreFlag) {
+    projects = [...Projects].splice(0, 4);
+  } else {
+    projects = [...Projects]
+  }
+
   return (
     <>
       <div className="text-green-500 max-w-screen-xl px-10 mx-auto">
@@ -65,8 +75,8 @@ function App() {
           >
             Projects
           </TextShimmer>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
-            {Projects.map((project) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-12">
+            {projects.map((project) => (
               <Project
                 imageSrc={project.imageSrc}
                 strLink={project.strLink}
@@ -77,6 +87,9 @@ function App() {
               />
             ))}
           </div>
+          {!showMoreFlag && <button className="py-2 px-4 border border-green-500 border-dashed" onClick={() => setShowMoreFlag(1)}>
+            Show more...
+          </button>}
         </div>
       </div>
       <Spotlight
