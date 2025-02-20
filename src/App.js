@@ -6,16 +6,16 @@ import HeroSection from "./components/HeroSection.jsx";
 import { TextShimmer } from "./coreElements/textShimmer.tsx";
 import { Spotlight } from "./coreElements/spotLight.tsx";
 import { useState } from "react";
-
+import { TextShimmerWave } from "./coreElements/textWave.tsx";
 
 function App() {
-  let [showMoreFlag, setShowMoreFlag] = useState(0)
+  let [showMoreFlag, setShowMoreFlag] = useState(0);
   let projects = [];
 
   if (!showMoreFlag) {
     projects = [...Projects].splice(0, 4);
   } else {
-    projects = [...Projects]
+    projects = [...Projects];
   }
 
   return (
@@ -26,6 +26,36 @@ function App() {
         <SocialMediaSection />
 
         <SkillsSection />
+
+        <div className="flex flex-col items-center mt-10">
+          <TextShimmer
+            className="text-6xl lg:text-7xl smooch-sans-normal font-bold mb-10"
+            duration={1}
+          >
+            Services
+          </TextShimmer>
+
+          <TextShimmerWave className="font-mono text-md mb-3" duration={1}>
+            Machine Learning Solutions – Build and deploy predictive models for
+            data-driven decision-making.
+          </TextShimmerWave>
+          <TextShimmerWave className="font-mono text-md mb-3" duration={1}>
+            Natural Language Processing (NLP) – Automate text analysis,
+            chatbots, and sentiment analysis.
+          </TextShimmerWave>
+          <TextShimmerWave className="font-mono text-md mb-3" duration={1}>
+            Data Analysis & Visualization – Transform raw data into actionable
+            insights with Python & SQL.
+          </TextShimmerWave>
+          <TextShimmerWave className="font-mono text-md mb-3" duration={1}>
+            AI-Powered Automation – Optimize workflows and enhance efficiency
+            with AI-driven solutions.
+          </TextShimmerWave>
+          <TextShimmerWave className="font-mono text-md" duration={1}>
+            End-to-End Model Deployment – Bring AI models to life using FastAPI,
+            Streamlit, and cloud services.
+          </TextShimmerWave>
+        </div>
 
         <div id="projects" className="my-10 lg:my-20 text-center">
           <TextShimmer
@@ -46,9 +76,14 @@ function App() {
               />
             ))}
           </div>
-          {!showMoreFlag && <button className="py-2 px-4 border border-green-500 border-dashed" onClick={() => setShowMoreFlag(1)}>
-            Show more...
-          </button>}
+          {!showMoreFlag && (
+            <button
+              className="py-2 px-4 border border-green-500 border-dashed"
+              onClick={() => setShowMoreFlag(1)}
+            >
+              Show more...
+            </button>
+          )}
         </div>
       </div>
       <Spotlight

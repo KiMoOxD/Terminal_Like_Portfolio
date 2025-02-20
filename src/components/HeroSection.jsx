@@ -20,9 +20,17 @@ export default function HeroSection() {
           preset="fade-in-blur"
           speedReveal={1.1}
           speedSegment={0.3}
-          className="text-2xl mb-3 smooch-sans-normal"
+          className="text-2xl mb-0 smooch-sans-normal"
         >
           Data Scientist & ML Engineer.
+        </TextEffect>
+        <TextEffect
+          preset="fade-in-blur"
+          speedReveal={1.1}
+          speedSegment={0.3}
+          className="text-lg mb-3 smooch-sans-normal"
+        >
+          From Data to Decisions: Unlocking the Power of AI & Machine Learning!
         </TextEffect>
         <TextScramble
           className="leading-5 text-green-400 mb-6"
